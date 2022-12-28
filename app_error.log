@@ -14,3 +14,6 @@
 {"level":"error","message":"Sun Dec 25 2022 17:04:38 GMT+0100 (Central European Standard Time)-{\"name\":\"Data Not found\",\"statusCode\":500,\"isOperational\":true}","private":true}
 {"level":"error","message":"Mon Dec 26 2022 11:15:33 GMT+0100 (Central European Standard Time)-{\"name\":\"Data Not found\",\"statusCode\":500,\"isOperational\":true}","private":true}
 {"level":"error","message":"Mon Dec 26 2022 11:17:57 GMT+0100 (Central European Standard Time)-{\"name\":\"Data Not found\",\"statusCode\":500,\"isOperational\":true}","private":true}
+{"level":"error","message":"Wed Dec 28 2022 15:47:48 GMT+0100 (Central European Standard Time)-{\"name\":\"Data Not found\",\"statusCode\":500,\"isOperational\":true}","private":true}
+{"level":"error","message":"Wed Dec 28 2022 15:48:21 GMT+0100 (Central European Standard Time)-{\"name\":\"Data Not found\",\"statusCode\":500,\"isOperational\":true}","private":true}
+{"level":"error","message":"Wed Dec 28 2022 15:49:16 GMT+0100 (Central European Standard Time)-{\"name\":\"Data Not found\",\"statusCode\":500,\"isOperational\":true}","private":true}

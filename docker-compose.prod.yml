@@ -1,0 +1,15 @@
+version: "2.10.2"
+
+services:
+  image:
+    build: 
+      context: .
+      target: production
+    environment:
+      - NODE_ENV=production
+
+# Run when file name is default (docker-compose.yml)
+# docker-compose up -d  
+
+# Run when file name isn't default
+# docker-compose -f docker-compose.dev up -d  

@@ -1,0 +1,25 @@
+version: "2.10.2"
+
+services:
+  image:
+    #build: .
+    container_name: yazar-shop-container
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./.env
+
+    volumes:
+      - mongo-db:/data/db
+
+  mongo:
+    image: mongo
+    restart: always
+    #volumes:
+    #  - mongo-db:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+
+volumes:
+  mongo-db:
